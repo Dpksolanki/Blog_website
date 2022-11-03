@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import Navbar from './page/Navbar.js'
+import Navbar from './Page/Navbar'
 import Home from './Page/Home'
 import Service from './Page/Service'
 import Contact from './Page/Contact'
@@ -13,7 +13,8 @@ import { BrowserRouter , Redirect, Route , Routes, Switch } from 'react-router-d
 function App() {
   return (
     <>
-      <Navbar title='Texttile'/>
+
+      <Navbar title={"title"}/>
       <BrowserRouter>
       <Routes>
       
