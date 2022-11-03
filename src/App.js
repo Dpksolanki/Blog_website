@@ -8,7 +8,8 @@ import About from './Page/About'
 import { BrowserRouter , Redirect, Route , Routes, Switch } from 'react-router-dom';
 // import { MemoryRouter as Router } from 'react-router-dom';
 //import React, { Component } from 'react';
-//import '../node_modules/bootstrap/dist/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
